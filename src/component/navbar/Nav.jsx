@@ -7,10 +7,10 @@ function Nav(){
             {/* list */}
             <div>
                 <ul className="flex gap-10 font-semibold">
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">home</li>
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">projects</li>
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">contact</li>
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">about</li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">Home</li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">Projects</li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">Contact-Us</li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">About</li>
                 </ul>
             </div>
         </nav>
