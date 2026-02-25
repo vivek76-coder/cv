@@ -1,13 +1,17 @@
-import Nav from "./component/navbar/Nav.jsx"
-import Footer from "./component/footer/Footer.jsx"
-import Home from "./component/main/Home.jsx"
-import About from "./component/main/About.jsx"
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import Home from './component/Home.jsx';
+import Contact from './component/Contact.jsx';
+import Project from './component/Project.jsx';
+import About from './component/About.jsx'
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='Home' element="<h1>hello</h1>"/>
+        <Route path='/' element={<Home />} />
+        <Route path='/project' element={<Project />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/*' element="ghjghjghj" />
       </Routes>
     </BrowserRouter>
   )

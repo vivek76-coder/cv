@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 function Nav(){
     return(
         <>
@@ -7,10 +8,10 @@ function Nav(){
             {/* list */}
             <div>
                 <ul className="flex gap-10 font-semibold">
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">Home</li>
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">Projects</li>
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">Contact-Us</li>
-                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000">About</li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/'>Home</Link></li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/project'>Projects</Link></li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/Contact'>Contact-Us</Link></li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/about'>About</Link></li>
                 </ul>
             </div>
         </nav>
