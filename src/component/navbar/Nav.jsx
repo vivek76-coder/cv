@@ -12,6 +12,7 @@ function Nav(){
                     <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/project'>Projects</Link></li>
                     <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/Contact'>Contact-Us</Link></li>
                     <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/about'>About</Link></li>
+                    <li className="hover:text-gray-400 hover:underline hover:underline-offset-1 hover:transition-all hover:duration-1000"><Link to='/usestate'>useState()</Link></li>
                 </ul>
             </div>
         </nav>
