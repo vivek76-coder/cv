@@ -3,7 +3,8 @@ import Home from './component/Home.jsx';
 import Contact from './component/Contact.jsx';
 import Project from './component/Project.jsx';
 import About from './component/About.jsx';
-import Usestate from './component/Usestate.jsx'
+import Usestate from './component/Usestate.jsx';
+import TestPriceCalculator  from './component/TestCalculator.jsx'
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
         <Route path='/Contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
         <Route path='/usestate' element={<Usestate />} />
+        <Route path='testcalculator' element={<TestPriceCalculator />} />
         <Route path='/*' element="ghjghjghj" />
       </Routes>
     </BrowserRouter>
